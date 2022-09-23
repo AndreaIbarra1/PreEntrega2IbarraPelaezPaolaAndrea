@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item-relative{
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.item-absolute{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.item-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.body-inicio{
+    background-color: #DFBB9D;     
+    background-image: url(../img/ALICE\ logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%; 
+    background-attachment: fixed;
+   }
+
+.header-titulo h1{
+    text-align:center;
+    color: rgb(160, 104, 160);
+    text-transform: uppercase;   
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.container-img-home{
+    display: flex;
+    justify-content: end;    
+}
+
+
+.menu{
+    background-color: #FDEEDC;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    }
+    .color-fondo {
+    background-color: #F5E8C7
+    }
+
+.menu ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+/*estilos cursos*/
+
+
+
+
+/* estilos ingresar*/
+
+.body-ingresar{
+    background-color: #F5E8C7;
+}
+
+
+.header-titulo ingresar{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+
+
+/* estilos tapices*/
+
+
+.body-tapices{
+    background-color: #F5E8C7;
+    
+}
+
+.main-textotapis p {
+    text-align-last: left;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.tapis-img-ana{
+    width: 70rem;
+}
+
+
+
+.body-cursos{
+    background-color: #F5E8C7
+}
+.header-titulo cursos{
+    text-align: center;
+}
+
+/*estilos portamateros*/
+
+.menu-portamateros{
+    display: block;
+    display: flex;
+    justify-content:end;
+    
+}
+
+.body-portamateros{
+    background-color: #F5E8C7
+}
+
+.main-portamateros img{
+    width: 50%;
+    height: 50%;
+}
+
+/* estilos imagenes tapices*/
+
+.main-textotapis div img{
+        width: 50%;
+        filter: drop-shadow(8px 5px 2px black);
+        height: 50%;
+}
+
+@media screen and (min-width:600px){
+    header nav ul li {
+       font-weight: bold;
+       transform: scale(1.1);
+    }
+}
+
+header nav ul li:hover{
+    background-color: #E9DAC1;
+    padding: 0.1rem;
+    box-shadow: 1px 1px 3px black;       
+}
+
+
+
